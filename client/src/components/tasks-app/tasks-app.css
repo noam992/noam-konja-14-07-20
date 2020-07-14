@@ -1,0 +1,85 @@
+.tasks-app {
+    height: 100%;
+    direction: rtl;
+}
+
+/* General style for all the table */
+table {
+    max-width: 1200px;
+    min-width: 50px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead tr:first-child {
+    background-color: #ddd;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #a5ff2e63;}
+
+
+/* Table header */
+.tableHeader {
+    font-weight: bold;
+}
+
+/* Operation button */
+.operation-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operation-box > div {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* Collapse - box content */
+.content{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.trContentBox {
+    font-size: medium;
+    background-color: rgba(166, 255, 1, 0.329);
+    padding: 0;
+    margin: 2px;
+    border: 1px solid green;
+}
+
+/* Table -> tr -> input - edit client info */
+.errBox {
+    color: tomato;
+    font-size: small;
+}
+
+/* Link to insert page */
+.insertLink {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border: 1px solid #a5ff2e63;;
+    border-radius: 5px;
+    background-color: #a5ff2e63;;
+}
+
+.insertLink:hover {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(179, 255, 0, 0.568);
+}

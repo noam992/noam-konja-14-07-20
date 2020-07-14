@@ -1,0 +1,25 @@
+.insert {
+  direction: rtl;
+}
+
+
+/* button link */
+.appLink {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border: 1px solid #a5ff2e63;;
+    border-radius: 5px;
+    background-color: #a5ff2e63;;
+  }
+  
+  .appLink:hover {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(179, 255, 0, 0.568);
+  }

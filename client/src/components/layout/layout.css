@@ -1,0 +1,24 @@
+.layout {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.layout > header {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 5px #8888883d;
+    padding: 25px;
+    height: 100%;
+    grid-column: span 12;
+    background-color: white;
+    max-height: 50px;
+}
+
+.layout > main {
+    margin-top: 70px;
+    height: 100%;
+    grid-column: span 12;
+}
